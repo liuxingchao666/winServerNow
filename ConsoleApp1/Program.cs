@@ -88,7 +88,7 @@ namespace ConsoleApp1
                             ////测试
                             if (!string.IsNullOrEmpty(path))
                             {
-                                Console.WriteLine("正在下载...123132.");
+                                Console.WriteLine("正在下载，聖誕節分厘卡即使代理費....");
                                 path += "/" + list.Pop();
                                
                                 using (FileStream stream = new FileStream(path, FileMode.OpenOrCreate))
