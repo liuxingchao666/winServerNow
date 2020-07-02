@@ -19,9 +19,8 @@ namespace ConsoleApp1
         [STAThread]
         static void Main(string[] args)
         {
-             scoketClicent = new scoketClicent();
-            a();
-            Console.ReadKey();
+            webScoket webScoket = new webScoket();
+            Console.ReadLine();
         }
         [STAThread]
         public static bool a()
@@ -88,7 +87,7 @@ namespace ConsoleApp1
                             ////测试
                             if (!string.IsNullOrEmpty(path))
                             {
-                                Console.WriteLine("正在下载，聖誕節分厘卡即使代理費....");
+                                Console.WriteLine("正在下载,請稍定....");
                                 path += "/" + list.Pop();
                                
                                 using (FileStream stream = new FileStream(path, FileMode.OpenOrCreate))
